@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'the_rabbitregular';
+    src: url('./font/the_rabbit-webfont.woff2') format('woff2'),
+         url('./font/the_rabbit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    background-image: url(./images/versaille.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+header {
+    height: 20px;
+    text-align: center;
+    background-color: blue(0, 0%, 100%);
+    color: blanchedalmond;
+    font-size: 25px;
+    text-shadow: -3px 3px 3px black;
+    font-family: 'the_rabbitregular';
+     }
+     .recherche {
+        height: 20px;
+        margin-top: 100px;
+        padding: 10px 20px;
+        border:100px;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+    h1{
+        margin:0 ;
+        text-align: center;
+        font-size: 40px;
+        }
+        .quatorze {
+            background-color: rgb(220, 220, 223);
+            color: white;
+            height: 20px;
+            margin-top: 1000px;
+            margin-bottom: 100px;
+            padding: 10px 20px;
+            border:100px;
+            border-radius: 4px;
+            font-size: 16px;
+            margin-top: 50px;
+            margin-bottom: 50px ;
+          }
+          
+          
+          
+          
