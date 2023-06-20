@@ -1,0 +1,73 @@
+header {
+         text-align: right;
+}
+a {
+    text-decoration: none;
+    color: black;
+    text-shadow: -3px 3px 1px whitesmoke;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+input {
+    width: 0px;
+    height: 1px;
+    width: 150px;
+    border: 2px solid rgb(16, 16, 33);
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+
+.rechercher i{
+     position:relative;
+ 
+
+}
+
+body {
+   margin: 0;
+   background-size: cover;
+   background-image: url(./images/versaille.jpg);
+}
+footer {
+    margin-top: 150px;
+    display: flex;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+button {
+    background: transparent;
+    color: rgb(229, 232, 235);
+    border: 0;
+    font-size: 1.5em;
+    cursor: pointer;
+    position: relative;
+    padding: 10px 10px;
+    transition: all .25s;
+}
+button::after, button::before {
+    border: 3px solid rgb(91, 10, 10);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: all .25s;
+}
+button:hover::after {
+    transform: translate(-5px, -5px);
+}
+button:hover::before {
+    transform: translate(5px, 5px);
+}
