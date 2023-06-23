@@ -1,10 +1,17 @@
 header {
          text-align: right;
+         height: 100px;
 }
+
+
 a {
     text-decoration: none;
-    color: black;
-    text-shadow: -3px 3px 1px whitesmoke;
+    color: rgb(245, 235, 235) !important;
+}
+
+a:hover {
+    color: rgb(231, 253, 237) !important;
+
 }
 
 div {
@@ -26,7 +33,6 @@ input {
 .rechercher i{
      position:relative;
  
-
 }
 
 body {
@@ -34,7 +40,9 @@ body {
    background-size: cover;
    background-image: url(./images/versaille.jpg);
 }
+
 footer {
+    display: flex;
     margin-top: 150px;
     display: flex;
 }
@@ -45,7 +53,7 @@ main {
     justify-content: space-around;
     margin-top: 50px;
 }
-button {
+.sect {
     background: transparent;
     color: rgb(229, 232, 235);
     border: 0;
@@ -55,7 +63,7 @@ button {
     padding: 10px 10px;
     transition: all .25s;
 }
-button::after, button::before {
+.sect::after, .sect::before {
     border: 3px solid rgb(240, 237, 237);
     content: "";
     position: absolute;
@@ -65,9 +73,11 @@ button::after, button::before {
     left: 0;
     transition: all .25s;
 }
-button:hover::after {
+.sect:hover::after {
     transform: translate(-5px, -5px);
 }
-button:hover::before {
+.sect:hover::before {
     transform: translate(5px, 5px);
 }
+ 
+
