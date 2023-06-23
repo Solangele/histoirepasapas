@@ -1,3 +1,16 @@
 body {
-    background-color: #8e0d0d;
+    background-image: url(./images/foret.jpeg);
 }
+
+h1 {
+    text-align: center;
+    color: white !important;
+}
+
+footer {
+    display: grid;
+    text-align: left;
+    font-size: small;
+}
+
+
