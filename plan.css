@@ -1,3 +1,28 @@
 body {
-    background-color: #8e0d0d;
+    background-image: url(./images/foret.jpeg);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.sect1 {
+    width: 30%;
+    height: 80%;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+    background-color: rgba(255, 235, 205, 0.445);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black;
+}
+
+footer {
+    width: 10%;
+    display: grid;
+    background-color: rgba(255, 235, 205, 0.445);
+    text-align: left;
+    font-size: small;
+    border-radius: 10px;
 }
