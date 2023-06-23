@@ -4,9 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./faq.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <input type="text" placeholder="Rechercher..." id="search"> 
+    </header>
+    <h1>F.A.Q.</h1>
+    <br>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Qu'est-ce qu'un site web sans inscription?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Un site web sans inscription est un site où les utilisateurs peuvent accéder à son contenu et utiliser ses fonctionnalités sans avoir besoin de créer un compte ou de fournir des informations d'identification personnelles.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Mes informations personnelles sont-elles sécurisées sur un site web sans inscription?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                Dans la plupart des cas, un site web sans inscription ne collecte pas d'informations personnelles, car aucune inscription n'est requise. Cependant, il est essentiel de lire la politique de confidentialité du site web pour comprendre comment les données sont traitées et protégées. Assurez-vous que le site utilise des mesures de sécurité appropriées pour protéger vos informations lors de l'utilisation du site.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Puis-je partager du contenu d'un site web sans inscription sur les réseaux sociaux?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                Oui, dans la plupart des cas, vous pouvez partager du contenu provenant d'un site web sans inscription sur les réseaux sociaux en utilisant les fonctionnalités de partage intégrées ou en copiant le lien du contenu et en le partageant manuellement sur vos profils de réseaux sociaux.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                Puis-je contacter l'équipe du site web sans inscription pour poser des questions ou signaler des problèmes?
+              </button>
+            </h2>
+            <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Oui, la plupart des sites web sans inscription fournissent une adresse e-mail de contact ou un formulaire de contact pour vous permettre de poser des questions ou de signaler des problèmes. Veuillez consulter la page de contact du site web pour obtenir les informations de contact appropriées.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                Puis-je recevoir des mises à jour ou des notifications d'un site web sans inscription?
+              </button>
+            </h2>
+            <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Généralement, les sites web sans inscription ne proposent pas de fonctionnalités de notification ou de mise à jour personnalisées, car ils ne collectent pas d'informations personnelles pour vous envoyer des notifications. Cependant, certains sites web peuvent offrir des options de souscription à des newsletters ou à des notifications par e-mail volontaires.
+              </div>
+            </div>
+          </div> 
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                Puis-je accéder à un historique de mes activités sur un site web sans inscription?
+              </button>
+            </h2>
+            <div id="collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Dans la plupart des cas, les sites web sans inscription ne conservent pas d'historique des activités individuelles des utilisateurs, car ils ne sont pas associés à des comptes spécifiques. Il est recommandé de prendre des captures d'écran ou de sauvegarder les informations importantes que vous souhaitez.
+              </div>
+            </div>
+          </div>                   
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+      <footer>
+        <label for="Qui sommes-nous?"><a href="./qsn.html">Qui sommes-nous?</a></label>
+        <label for="CGU"><a href="./cgu.html">CGU</a></label>
+        <label for="FAQ"><a href="./faq.html">F.A.Q.</a></label>
+        <label for="plan"><a href="./plan.html">Plan du site
+        </a></label>
+
+    </footer>
+
 </body>
 </html>

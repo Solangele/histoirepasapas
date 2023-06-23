@@ -8,7 +8,7 @@
 
 body {
     margin: 0;
-    background-image: url(./images/versaille.jpg);
+    background-image: url(./images/pagesiecles.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -38,16 +38,6 @@ h1 {
     font-size: 40px;
 }
 
-.quatorze {
-    color: white;
-    height: 50px;
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    border-radius: 4px;
-    font-size: 20px;
-}
-
 .footer {
     height: 5px;
     text-align: center;
@@ -66,3 +56,41 @@ h1 {
     margin-top: 2px;
     margin-left: 10px;
 }
+
+a:not(.link) {
+    background: transparent;
+    color: rgb(229, 232, 235);
+    font-size: 1.5em;
+    cursor: pointer;
+    position: relative;
+    padding: 10px 10px;
+    transition: all .25s;
+    text-decoration: none;
+}
+a:not(.link)::after, button::before {
+    border: 3px solid rgb(240, 237, 237);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: all .25s;
+    text-decoration: none;
+}
+a:not(.link):hover::after{
+    transform: translate(-5px, -5px);
+    text-decoration: none;
+}
+a:not(.link):hover::before {
+    transform: translate(5px, 5px);
+    text-decoration: none;
+}
+
+.btn_transparent {
+    background-color:transparent;
+    border: transparent;
+    color:white;
+}
+
+   
