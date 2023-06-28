@@ -7,10 +7,21 @@ h1 {
     color: white !important;
 }
 
+.accordion {
+    opacity: 60%; 
+}
+
+.accordion-body {
+    color: black;
+}
+
 footer {
+    width: 10%;
     display: grid;
+    background-color: rgba(255, 235, 205, 0.445);
     text-align: left;
     font-size: small;
+    border-radius: 10px;
 }
 
 

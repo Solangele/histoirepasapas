@@ -4,42 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./catégories.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
 
     <header> 
-            <a href="./siecles.html">accueil</a>
-            <a href="./siecles.html">Les différents siècles</a>
-            <a href="">Les catégories</a>
+        <nav aria-label="breadcrumb"> 
+            <ol class="breadcrumb"> 
+               <li class="breadcrumb-item"><a href="#">Accueil</a></li> 
+               <li class="breadcrumb-item"><a href="#">Les catégories</a></li> 
+               <li class="breadcrumb-item active" aria-current="page">Vous ètes ici</li> 
+            </ol> 
+         </nav> 
+         <div class="rechercher">
+            <input type="rechercher" placeholder="rechercher">
+              <button><i class="fa fa-search" aria-hidden="true"></i></button>  
+            </div>
 
     </header>
 
-            <div class="rechercher">
-            <input type="rechercher" placeholder="rechercher">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <script src="https://kit.fontawesome.com/c0bfb983cf.js"></script>
-            </div>
+            
             <main>
-                <section class="sect sect1">
-                    <button>Ecrivains</button>
+
+                <section >
+                    <button class="sect sect1">Ecrivains</button>
+                    <a href="./ecrivains.html"></a>
                 </section>
-                     <section class="sect sect2">
-                    <button>Poètes</button>
+                     <section >
+                    <button class="sect sect2">Poètes</button>
                 </section>
-                    <section class="sect sect3">
-                    <button>Politiques</button>          
+                    <section >
+                    <button class="sect sect3">Politiques</button>          
                 </section>
              </main><br><br>
              <main>
-                    <section class="sect sect4">
-                    <button>Philosophes</button>     
+                    <section >
+                    <button class="sect sect4">Philosophes</button>     
                 </section>
-                    <section class="sect sect5">
-                    <button>Royauté</button>      
+                    <section >
+                    <button class="sect sect5">Royauté</button>      
                 </section>
-                    <section class="sect sect6">
-                    <button>Artistes</button>      
+                    <section >
+                    <button class="sect sect6">Artistes</button>      
                 </section>
                 </main>    
                 
