@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jean de La Fontaine</title>
+  <link rel="stylesheet" href="jeandelafontaine.css">
+  
+  
+  <script>
+    function playMusic() {
+      var audio = document.getElementById("audio");
+      audio.play();
+    }
+   
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Jean de La Fontaine</h1>
+    <input type="text" placeholder="Rechercher...">
+          <a href="index.html"class="link">Accueil</a>
+          <a href="pagesiecle.html"class="link" >Différents Siècles</a>
+          <a href="catégories.html"class="link">Catégories</a>
+          <a href="ecrivains.html"class="link">écrivain</a>
+  </header>
+
+  <main>
+    <h2>Biographie</h2>
+    <img src="images écrivains 17eme/Jean_de_La_Fontaine.png" alt="Jean de la fontaine">
+    <article class="container">
+    <p>
+      Jean de La Fontaine est un poète français né à Château-Thierry en 1621 et mort à Paris en 1695.
+      Il est surtout connu pour être l'auteur de ses très célèbres Fables. Sa biographie nous enseigne que destiné au départ à faire une carrière religieuse, il abandonne cette voie et devient finalement avocat au Parlement de Paris.
+      Il fréquente alors un cercle de jeunes poètes de la capitale : les Chevaliers de la Table Ronde. En 1652, à l'âge de 31 ans, il devient maître des Eaux et Forêts du duché de Château-Thierry. 
+      Sa vie connaît un nouveau tournant en 1658, quand il entre au service du Surintendant Fouquet. Mais ce dernier est bientôt arrêté sur ordre de Louis XIV, jaloux de sa puissance.
+      La Fontaine souffra de la disgrâce de son maître, et intensifia son activité littéraire. En 1660, il fait paraître son Élégie aux Nymphes de Vaux, puis entre 1665 et 1674 plusieurs volumes de Contes et Nouvelles qui ne manquent pas de talent. 
+      Son oeuvre majeure reste bien sûr, ses Fables dont la composition l'occupera une bonne partie de sa vie, puisqu'elle s'étale de 1668 à sa mort. Autrement dit, sur une période de plus de 25 ans.
+    </p>
+  </article>
+    <button onclick="playMusic()">Play Music</button>
+    <audio id="audio" src="Fichier audio/Folia Rodrigo Martinez - c.1490.mp3"></audio>
+  </main>
+
+  <footer>
+    <a href="/faq.html"class="link">F.A.Q</a>
+    <a href="/cgu.html"class="link" >C.G.U</a>
+    <a href="qsn.html"class="link">Qui sommes-nous</a>
+    <a href="plan.html"class="link">Plan du site</a>
+  </footer>
+</body>
+</html>
