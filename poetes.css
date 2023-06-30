@@ -9,7 +9,7 @@
 
 body {
     margin: 0;
-    background-image: url(./images/pagesiecles.jpg);
+    background-image: url(./images\ écrivains\ 17eme/fondpagepoetes.jpg) ;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -49,7 +49,7 @@ footer a {
 }
 
 .link {
-    color: rgb(14, 13, 13);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 5px 10px;
     margin-right: 10px;
@@ -78,7 +78,7 @@ a:not(.link) {
 
 a:not(.link)::after,
 button::before {
-    border: 3px solid rgb(240, 237, 237);
+    border: 3px solid rgb(249, 249, 249);
     content: "";
     position: absolute;
     width: 100%;
