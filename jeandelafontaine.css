@@ -16,11 +16,13 @@ footer {
   background-color: #049f8dba;
   padding: 20px;
   text-align: center;
+
 }
 footer a {
   margin-right: 10px;
   color: #666;
   text-decoration: none;
+  
 }
 img{
     height: 100px;
