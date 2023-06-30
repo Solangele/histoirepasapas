@@ -1,16 +1,21 @@
-#search {
-    position: relative;
+.recherche {
+  height: 20px;
+  margin-top: 100px;
+  border: 100px;
+  border-radius: 4px;
+  font-size: 16px;
+  left: 0;
 }
 
+
 #logo {
-    height: 180px;
-    position: absolute;
+    height: 100px!important;
+    position: relative;
     top: 0;
-    right: 0;
 }
 
 body {
-    background-color: #8e0d0d;
+    background-color: #8e0d0d !important;
 }
 
 
@@ -29,8 +34,8 @@ h2 {
 }
 
 img { 
-  width: 200 px;
-  height: 200px;
+  width: 250 px;
+  height: 250px;
 }
 
 .clearfix::after {
@@ -39,12 +44,97 @@ img {
   display: table;
 }
 
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px !important;
+  position: relative !important;
+  margin: auto !important;
+ 
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+#carrousel {
+  height: 100px !important;
+  width: 1000px !important;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease !important;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
 
 
-  footer {
-    display: grid;
-    text-align: left;
-    font-size: small;
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease! important;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade !important;
+  animation-duration: 3600s !important;
+}
+
+@keyframes fade {
+  from {opacity: .8}
+  to {opacity: 1}
+}
+
+.link {
+  color: rgb(14, 13, 13);
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+
+footer {
+  background-color: #049f8d73;
+  padding: 20px;
+  text-align: center;
+}
+footer a {
+  margin-right: 10px;
+  color: #666;
+  text-decoration: none;
 }
 
 
