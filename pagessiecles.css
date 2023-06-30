@@ -6,26 +6,17 @@
     font-style: normal;
 }
 
+
 body {
     margin: 0;
     background-image: url(./images/pagesiecles.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    padding-bottom: 100px;
+    overflow:hidden;
     /* Hauteur du pied de page */
 }
-/*
-header {
-    height: 150px;
-    text-align: center;
-    background-color: blue(0, 0%, 100%);
-    color: blanchedalmond;
-    font-size: 25px;
-    text-shadow: -3px 3px 3px black;
-    font-family: 'the_rabbitregular';
-}
-*/
+
 .recherche {
     height: 20px;
     margin-top: 100px;
@@ -41,23 +32,33 @@ h1 {
     font-size: 40px;
 }
 
-.footer {
-    height: 5px;
+footer {
+    background-color: #049f8dc2;
+    height: 10%;
     text-align: center;
-    background-color: blue(0, 0%, 100%);
-    color: blanchedalmond;
-    font-size: 25px;
-    font-family: 'the_rabbitregular';
-    position: absolute;
-    bottom: 0;
-    /* on le colle en bas */
+    margin-bottom: 0px;
+    margin-right: 0px;
+    width: 100%;
 }
 
+footer a {
+    margin-right: 10px;
+    color: #666;
+    text-decoration: none;
+    font-size: x-large;
+}
 
 .link {
+    color: rgb(14, 13, 13);
     text-decoration: none;
-    color: aliceblue;
+    padding: 5px 10px;
+    margin-right: 10px;
 }
+
+.link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
 
 .form-chercher {
     margin-top: 2px;
@@ -106,7 +107,7 @@ a:not(.link):hover::before {
 
 #conteneur-page {
     position: relative;
-    min-height: 100vh;
+    min-height: 85%;
 }
 
 #enveloppe-contenu {
@@ -120,8 +121,9 @@ a:not(.link):hover::before {
     width: 100%;
 }
 
-html, body {
-    margin:0;
-    padding:0;
-    height:100%;
- }
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
