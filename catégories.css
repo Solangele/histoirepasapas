@@ -1,51 +1,82 @@
-header {
-         text-align: right;
-         height: 100px;
-}
-
-
-a {
-    text-decoration: none;
-    color: rgb(245, 235, 235) !important;
-}
-
-a:hover {
-    color: rgb(231, 253, 237) !important;
-
-}
-
-div {
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
-input {
-    width: 0px;
-    height: 1px;
-    width: 150px;
-    border: 2px solid rgb(16, 16, 33);
-    padding: 10px;
-    border-radius: 30px;
+
+
+.breadcrumb li {
+    display: inline;
+}
+.breadcrumb a {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    position: relative;
+    margin-right: 10px;
+    padding: 0px 15px;
     
 }
 
-.rechercher i{
-     position:relative;
- 
+
+.breadcrumb a::before,
+.breadcrumb a::after {
+    content: "";
+    position: absolute;
+    border-color: white;
+    border-style: solid;
+    border-width: 11px 5px;
+
+}
+.breadcrumb a::before {
+    left: -5px;
+    border-left-color: transparent;
+}
+.breadcrumb a::after {
+    left: 100%;
+    border-color: transparent;
+    border-left-color: white;
+}
+.breadcrumb a:hover {
+    color: white;
+    background-color: rgb(24, 23, 21);
+}
+.breadcrumb a:hover::before {
+    border-color: black;
+    border-left-color: transparent;
+}
+.breadcrumb a:hover::after{
+    border-left-color: black;
+}
+
+.rechercher {
+    text-align: left;
+    width: 500px;
+    
+}
+
+
+
+input {
+    width: 0px;
+    height: 1px;
+    width: 250px;
+    border: 2px solid rgb(16, 16, 33);
+    padding: 10px;
+    
+}
+
+div button {
+    width: 50px;
+    background-color: white;
 }
 
 body {
-   margin: 0;
-   background-size: cover;
-   background-image: url(./images/versaille.jpg);
+      background-image: url(./images/versailles.jpg);
+      background-size: cover;
 }
 
-footer {
-    display: flex;
-    margin-top: 150px;
-    display: flex;
-}
 
 
 main {
@@ -54,8 +85,8 @@ main {
     margin-top: 50px;
 }
 .sect {
-    background: transparent;
-    color: rgb(229, 232, 235);
+    background: rgb(11, 11, 12);
+    color: white;
     border: 0;
     font-size: 1.5em;
     cursor: pointer;
@@ -64,7 +95,7 @@ main {
     transition: all .25s;
 }
 .sect::after, .sect::before {
-    border: 3px solid rgb(240, 237, 237);
+    border: 3px solid white;
     content: "";
     position: absolute;
     width: 100%;
@@ -80,4 +111,28 @@ main {
     transform: translate(5px, 5px);
 }
  
+footer {
+    background-color: #049f8d00;
+    padding: 20px;
+    text-align: center;
+    margin-top: 170px;
+  }
+  footer a {
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+    
 
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+
+  .link:hover {
+    color: white;
+    background-color: black;
+  }

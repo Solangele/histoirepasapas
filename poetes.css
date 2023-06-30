@@ -9,7 +9,7 @@
 
 body {
     margin: 0;
-    background-image: url(./images\ écrivains\ 17eme/fondpagepoetes.jpg) ;
+    background-image: url(./images\ écrivains\ 17eme/texture-de-parchemin-de-vintage-31220527.webp) ;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -78,7 +78,7 @@ a:not(.link) {
 
 a:not(.link)::after,
 button::before {
-    border: 3px solid rgb(249, 249, 249);
+    border: 3px solid rgb(5, 5, 5);
     content: "";
     position: absolute;
     width: 100%;
@@ -102,7 +102,8 @@ a:not(.link):hover::before {
 .btn_transparent {
     background-color: transparent;
     border: transparent;
-    color: white;
+    color: black;
+    font-weight: bold;
 }
 
 #conteneur-page {
