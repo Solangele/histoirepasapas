@@ -3,30 +3,45 @@
 <head>
   <title>Jean de La Fontaine</title>
   <link rel="stylesheet" href="jeandelafontaine.css">
+  <link rel="stylesheet" href="bootstrap-5.0.2/css/bootstrap.min.css">
   
-  
-  <script>
-    function playMusic() {
-      var audio = document.getElementById("audio");
-      audio.play();
-    }
-   
-  </script>
+ 
 </head>
 <body>
   <header>
     <h1>Jean de La Fontaine</h1>
-    <input type="text" placeholder="Rechercher...">
-          <a href="index.html"class="link">Accueil</a>
-          <a href="pagesiecle.html"class="link" >Différents Siècles</a>
-          <a href="catégories.html"class="link">Catégories</a>
-          <a href="ecrivains.html"class="link">écrivain</a>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link link" href="index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link active" href="pagesiecle.html">Différents siècles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="catégories.html">Catégories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="ecrivains.html">Poètes</a>
+            <li class="nav-item">
+              <a class="nav-link link" href="cartehistorique.html"> Carte Historique</a>
+            </li>
+          </li>
+        </ul>
+        <form class="form-chercher">
+          <div class="input-group">
+            <button class="btn btn-outline-light" type="button">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+            <input type="text" class="form-control" placeholder="Chercher">
   </header>
 
   <main>
     <h2>Biographie</h2>
-    <img src="images écrivains 17eme/Jean_de_La_Fontaine.png" alt="Jean de la fontaine">
-    <article class="container">
+    <section sect1>
+      <img src="images écrivains 17eme/Jean_de_La_Fontaine.png" alt="Jean de la fontaine"> </section>
+      <section sect 2>
     <p>
       Jean de La Fontaine est un poète français né à Château-Thierry en 1621 et mort à Paris en 1695.
       Il est surtout connu pour être l'auteur de ses très célèbres Fables. Sa biographie nous enseigne que destiné au départ à faire une carrière religieuse, il abandonne cette voie et devient finalement avocat au Parlement de Paris.
@@ -35,9 +50,11 @@
       La Fontaine souffra de la disgrâce de son maître, et intensifia son activité littéraire. En 1660, il fait paraître son Élégie aux Nymphes de Vaux, puis entre 1665 et 1674 plusieurs volumes de Contes et Nouvelles qui ne manquent pas de talent. 
       Son oeuvre majeure reste bien sûr, ses Fables dont la composition l'occupera une bonne partie de sa vie, puisqu'elle s'étale de 1668 à sa mort. Autrement dit, sur une période de plus de 25 ans.
     </p>
-  </article>
-    <button onclick="playMusic()">Play Music</button>
-    <audio id="audio" src="Fichier audio/Folia Rodrigo Martinez - c.1490.mp3"></audio>
+  </section>
+    <a href="Fichier audio/Folia Rodrigo Martinez - c.1490.mp3" class="btn btn-primary">Lire la musique</a>
+    <audio controls>
+      <source src="Fichier audio/Folia Rodrigo Martinez - c.1490.mp3" type="audio/mpeg">
+    </audio>
   </main>
 
   <footer>
