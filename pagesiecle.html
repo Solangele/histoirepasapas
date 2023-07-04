@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="pagessiecles.css">
   <link rel="stylesheet" href="bootstrap-5.0.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-  </script>
+  <script src="bootstrap-5.0.2/js/bootstrap.min.js"></script>
   <header>
     <title>Différents siècles</title>
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -16,14 +16,23 @@
         <li class="nav-item">
           <a class="nav-link link" href="index.html">Accueil</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link link active" href="pagesiecle.html">Différents siècles</a>
+        <li class="nav-item dropdown">           
+          <a class="nav-link link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Différents siècles
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item link" href=""> XIV siècle </a></li>
+            <li><a class="dropdown-item link" href="#"> XV siècle </a></li>
+            <li><a class="dropdown-item link" href="#"> XVI siècle  </a></li>
+            <li><a class="dropdown-item link" href="#"> XVII siècle </a></li>
+            <li><a class="dropdown-item link" href="#"> XVIII siècle </a></li>
+            <li><a class="dropdown-item link" href="#"> XIX siècle </a></li>
+            <li><a class="dropdown-item link" href="#"> XX siècle </a></li>
+            <li><a class="dropdown-item link" href="#"> XXI siècle </a></li>
+          </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link link" href="catégories.html">Catégories</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link link" href="poetes.html">Poètes</a>
         </li>
       </ul>
       <form class="form-chercher">
@@ -45,19 +54,19 @@
       <div class="col-sm-2"></div>
       <div class="col-sm-2">
         <a href="https://www.google.com/" class="btnLink">
-          <button type="button" class="btn_transparent">-> 14ème siècle</button>
+          <button type="button" id="monBouton" class="btn btn-secondary btn-lg"> XIVe siècle </button>
         </a>
       </div>
       <div class="col-sm-1"></div>
       <div class="col-sm-2">
         <a href="./catégories.html">
-          <button type="button" class="btn_transparent">-> 17ème siècle</button>
+          <button type="button"  id="monBouton" class="btn btn-secondary btn-lg"> XVIIe siècle </button>
         </a>
       </div>
       <div class="col-sm-1"></div>
       <div class="col-sm-2">
         <a href="https://www.google.com/" class="btnLink">
-          <button type="button" class="btn_transparent">-> 20ème siècle</button>
+          <button type="button" id="monBouton" class="btn btn-secondary btn-lg"> XXe siècle </button>
         </a>
       </div>
       <div class="col-sm-2"></div>
@@ -67,19 +76,19 @@
       <div class="col-sm-2"></div>
       <div class="col-sm-2">
         <a href="https://www.google.com/" class="btnLink">
-          <button type="button" class="btn_transparent">-> 15ème siècle</button>
+          <button type="button" c id="monBouton" class="btn btn-secondary btn-lg"> XVe siècle </button>
         </a>
       </div>
       <div class="col-sm-1"></div>
       <div class="col-sm-2">
         <a href="https://www.google.com/" class="btnLink">
-          <button type="button" class="btn_transparent">-> 18ème siècle</button>
+          <button type="button"  id="monBouton" class="btn btn-secondary btn-lg"> XVIIIe siècle </button>
         </a>
       </div>
       <div class="col-sm-1"></div>
       <div class="col-sm-2">
         <a href="https://www.google.com/" class="btnLink">
-          <button type="button" class="btn_transparent">-> 21ème siècle</button>
+          <button type="button"  id="monBouton" class="btn btn-secondary btn-lg"> XXIe siècle </button>
         </a>
       </div>
       <div class="col-sm-2"></div>
@@ -89,13 +98,13 @@
       <div class="col-sm-2"></div>
       <div class="col-sm-2">
         <a href="https://www.google.com/" class="btnLink">
-          <button type="button" class="btn_transparent">-> 16ème siècle</button>
+          <button type="button"  id="monBouton" class="btn btn-secondary btn-lg"> XVIe siècle </button>
         </a>
       </div>
       <div class="col-sm-1"></div>
       <div class="col-sm-2">
         <a href="https://www.google.com/" class="btnLink">
-          <button type="button" class="btn_transparent">-> 19ème siècle</button>
+          <button type="button" id="monBouton" class="btn btn-secondary btn-lg"> XIXe siècle </button>
         </a>
       </div>
       <div class="col-sm-1"></div>
@@ -104,6 +113,7 @@
       <div class="col-sm-2"></div>
     </div>
   </div>
+  <br /><br /><br />
   <footer>
     <a href="/faq.html"class="link">F.A.Q</a>
     <a href="/cgu.html"class="link" >C.G.U</a>
