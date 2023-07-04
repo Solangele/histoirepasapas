@@ -9,7 +9,7 @@
 
 body {
     margin: 0;
-    background-image: url(./images\ écrivains\ 17eme/texture-de-parchemin-de-vintage-31220527.webp) ;
+    background-image: url(./Scientifiques_français_20s/recherches-scientifiques-physionat.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -33,7 +33,7 @@ h1 {
 }
 
 footer {
-    background-color: #c6ebe7c2;
+    background-color: #287b73c2;
     height: 10%;
     text-align: center;
     margin-bottom: 0px;
