@@ -33,10 +33,18 @@ h1 {
 footer {
     background-color: #049f8d73;
     padding: 20px;
-    text-align: center;
+    text-align: center; 
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    
   }
   footer a {
+    position:relative;
+    margin:0;
+    text-align: center;
     margin-right: 10px;
     color: #666;
     text-decoration: none;
+    
   }
