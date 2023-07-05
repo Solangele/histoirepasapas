@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'the_rabbitregular';
+    src: url('./font/the_rabbit-webfont.woff2') format('woff2'),
+        url('./font/the_rabbit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    background-image: url(./images\ écrivains\ 17eme/texture-de-parchemin-de-vintage-31220527.webp) ;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 100%;
+    overflow-y:scroll;
+    margin-bottom: 40px;
+    /* Hauteur du pied de page */
+}
+
+.recherche {
+    height: 20px;
+    margin-top: 100px;
+    border: 100px;
+    border-radius: 4px;
+    font-size: 16px;
+    left: 0;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+footer {
+    background-color: #049f8d73;
+    padding: 20px;
+    text-align: center; 
+    position:fixed;
+    bottom:0;
+    width: 100%;
+
+  }
+  footer a {
+    position:relative;
+    margin:0;
+    text-align: center;
+    margin-right: 10px;
+    color: #666;
+    text-decoration: none;
+
+  }
+
+.link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.form-chercher {
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+a:not(.link) {
+    background: transparent;
+    color: rgb(229, 232, 235);
+    font-size: 1.5em;
+    cursor: pointer;
+    position: relative;
+    padding: 10px 10px;
+    transition: all .25s;
+    text-decoration: none;
+}
+
+#monBouton {
+  font-size: 20px !important;
+  width: 200px !important;
+  height: 70px!important
+}
+
+#conteneur-page {
+    position: relative;
+    min-height: 85%;
+}
+
+#enveloppe-contenu {
+    padding-bottom: 2.5rem;
+    /* Hauteur du pied-de-page */
+}
+
+#pied-de-page {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+html body {
+ 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
