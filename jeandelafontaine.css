@@ -4,12 +4,57 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;  
   padding: 0;
-  background-color: #952121 !important; 
+  background-color: rgb(235, 234, 244);
+}
 
+
+
+a.link {
+  color: rgb(12, 15, 15);
+}
+
+
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0;
   
 }
+
+img:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+  }
+
+
+
+.container {
+max-width: 600px;
+margin: 0 auto;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 5px 5px 15px rgba(0,0,0,0,3);
+
+}
+
+
+.container h2 {
+  margin-bottom: 10px;
+}
+
+.container p {
+  line-height: 1.4;
+}
 footer {
-  background-color: #049f8da3 !important;
+  display: flex;
+  justify-content: center;
+  background-color: #049f8d73 !important;
   padding: 20px;
   text-align: center;
 }
@@ -23,34 +68,18 @@ footer a {
   .link {
     color: white;
     text-decoration: none;
-    padding: 5px 10px;
-    margin-right: 10px;
+    /* padding: 5px 10px;
+    margin-right: 10px; */
   }
 
   .link:hover {
     color: white;
     background-color: black;
   }
-
-img{
-    height: 100px;
-    width: 100px;
-    margin: right 100px;
-
-}
-
-
-
-.image-droite {
-  float: right;
-  margin-left: 10px;
-  max-width: 200px; /* Ajustez la largeur maximale selon vos besoins */
-}
-h1{color: white;}
-
-.logo-instagram {
-  width: 20px; /* Ajustez la largeur du logo selon vos besoins */
-  height: 20px; /* Ajustez la hauteur du logo selon vos besoins */
-  margin-left: 10px; /* Ajoute un espace à gauche du logo */
-
-}
+  
+  .logo-instagram {
+    width: 20px; /* Ajustez la largeur du logo selon vos besoins */
+    height: 20px; /* Ajustez la hauteur du logo selon vos besoins */
+    margin-left: 10px;
+    
+  }
