@@ -29,22 +29,32 @@ section {
 
   
 footer {
-  background-color: #049f8d73;
+  background-color: #049f8d73 !important;
   padding: 20px;
-  text-align: center; 
-  position:fixed;
-  bottom:0;
-  width: 100%;
-
+  text-align: center;
 }
 footer a {
-  position:relative;
-  margin:0;
-  text-align: center;
   margin-right: 10px;
   color: #666;
   text-decoration: none;
-
 }
 
-.link{color:#000000}
+  
+.link {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+.link:hover {
+  color: white;
+  background-color: black;
+}
+
+.logo-instagram {
+  width: 20px; /* Ajustez la largeur du logo selon vos besoins */
+  height: 20px; /* Ajustez la hauteur du logo selon vos besoins */
+  margin-left: 10px; /* Ajoute un espace à gauche du logo */
+
+}

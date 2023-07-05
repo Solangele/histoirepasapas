@@ -4,26 +4,34 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;  
   padding: 0;
+  background-color: #952121 !important; 
 
   
 }
-section {
-  text-align: center;
-}
-
-
 footer {
-  background-color: #049f8d37;
+  background-color: #049f8da3 !important;
   padding: 20px;
   text-align: center;
-
 }
 footer a {
   margin-right: 10px;
   color: #666;
   text-decoration: none;
-  
 }
+
+
+  .link {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+
+  .link:hover {
+    color: white;
+    background-color: black;
+  }
+
 img{
     height: 100px;
     width: 100px;
@@ -33,3 +41,16 @@ img{
 
 
 
+.image-droite {
+  float: right;
+  margin-left: 10px;
+  max-width: 200px; /* Ajustez la largeur maximale selon vos besoins */
+}
+h1{color: white;}
+
+.logo-instagram {
+  width: 20px; /* Ajustez la largeur du logo selon vos besoins */
+  height: 20px; /* Ajustez la hauteur du logo selon vos besoins */
+  margin-left: 10px; /* Ajoute un espace à gauche du logo */
+
+}

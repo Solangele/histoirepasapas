@@ -9,7 +9,7 @@
 
 body {
     margin: 0;
-    background-image: url(./Politiciens_français_20s/Fond2.jpg);
+    background-image: url(./images\ écrivains\ 17eme/texture-de-parchemin-de-vintage-31220527.webp) ;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -103,16 +103,9 @@ a:not(.link) {
     width: 100%;
 }
 
-html,
-body {
+html body {
+ 
     margin: 0;
     padding: 0;
     height: 100%;
 }
-.logo-instagram {
-    width: 20px; /* Ajustez la largeur du logo selon vos besoins */
-    height: 20px; /* Ajustez la hauteur du logo selon vos besoins */
-    margin-left: 10px; /* Ajoute un espace à gauche du logo */
-  
-  }
-  

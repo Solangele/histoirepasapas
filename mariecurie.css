@@ -5,8 +5,7 @@ body {
     padding: 0;
     background-color: rgb(235, 234, 244);
   }
-
-
+  
 
  a.link {
     color: rgb(12, 15, 15);
@@ -63,12 +62,6 @@ body {
  
 }
 
-  .logo-instagram {
-    width: 20px; /* Ajustez la largeur du logo selon vos besoins */
-    height: 20px; /* Ajustez la hauteur du logo selon vos besoins */
-    margin-left: 10px; /* Ajoute un espace à gauche du logo */
-
-  }
 .container h2 {
     margin-bottom: 10px;
 }
@@ -77,3 +70,8 @@ body {
     line-height: 1.4;
 }
 
+.monbouton {
+
+    color: rgb(209, 138, 46);
+
+      }
