@@ -28,16 +28,11 @@ function save() {
 }
 
 function submitForm() {
-  // Récupérer le message saisi dans le textarea
+
   let message = document.getElementById("message").value;
 
-  // Effectuer ici l'action souhaitée avec le message
-  // Par exemple, envoyer le message à un serveur, afficher une confirmation, etc.
-
-  // Réinitialiser le formulaire après la soumission
+  alert("Votre requête est transmise aux administrateurs du site");
   document.getElementById("contactForm").reset();
-
-  // Fermer le modal après la soumission
- let contactModal = new bootstrap.Modal(document.getElementById("contactModal"));
+  var contactModal = new bootstrap.Modal(document.getElementById("contactModal"));
   contactModal.hide();
 }
