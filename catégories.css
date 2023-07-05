@@ -139,3 +139,22 @@ footer {
     color: white;
     background-color: black;
   }
+
+  .logo-instagram {
+    width: 20px; /* Ajustez la largeur du logo selon vos besoins */
+    height: 20px; /* Ajustez la hauteur du logo selon vos besoins */
+    margin-left: 10px; /* Ajoute un espace à gauche du logo */
+
+  }
+.sect2 {
+    right: 100px;
+}
+.sect4 {
+    right: 50px;
+}
+.sect3 {
+    right: 50px;
+}
+.sect6 {
+    right: 30px;
+}
