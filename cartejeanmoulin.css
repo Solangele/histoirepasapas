@@ -1,0 +1,50 @@
+.recherche {
+    height: 20px;
+    margin-top: 100px;
+    border: 100px;
+    border-radius: 4px;
+    font-size: 16px;
+    left: 0;
+  }
+  
+  body {
+    background-color: rgb(110, 90, 90) !important;
+  }
+  
+  section {
+    color: white;
+    text-align: center;
+  }
+  
+  #map-container {
+    height: 400px;
+    width: 100%;
+    position: relative;
+  }
+  
+  #map {
+    height: 450px;
+  }
+  
+    
+  footer {
+    background-color: #049f8d73;
+    padding: 20px;
+    text-align: center; 
+    position:fixed;
+    bottom:0;
+    width: 100%;
+  
+  }
+  footer a {
+    position:relative;
+    margin:0;
+    text-align: center;
+    margin-right: 10px;
+    color: #666;
+    text-decoration: none;
+  
+  }
+  
+  .link{color:#000000}
+  
