@@ -7,49 +7,43 @@
     left: 0;
   }
   
-  #logo {
-      height: 100px!important;
-      position: relative;
-      top: 0;
-  }
-
-body {
+  body {
     background-color: rgb(145, 120, 120) !important;
-}
-
-h1 {
-    text-align: center;
+  }
+  
+  section {
     color: white;
-}
-
-.sect1 {
-    width: 600px;
-    height: 300px; 
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: left;
-    background-color: rgba(255, 235, 205, 0.445);
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px black;
-    /* min-height: 1000px; */
-}
-
-footer {
+    text-align: center;
+  }
+  
+  #map-container {
+    height: 400px;
+    width: 100%;
+    position: relative;
+  }
+  
+  #map {
+    height: 450px;
+  }
+  
+    
+  footer {
     background-color: #049f8d73;
     padding: 20px;
     text-align: center; 
     position:fixed;
     bottom:0;
     width: 100%;
-    
+  
   }
   footer a {
     position:relative;
-    bottom:0;
+    margin:0;
     text-align: center;
     margin-right: 10px;
     color: #666;
     text-decoration: none;
-    
+  
   }
   
+  .link{color:#000000}
