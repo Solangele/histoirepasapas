@@ -205,6 +205,33 @@
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h5 class="modal-title" id="contactModalLabel">Contactez-nous</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <form id="contactForm">
+              <div class="mb-3">
+                <label for="message">Message :</label>
+                <textarea class="form-control" id="message" rows="5"></textarea>
+              </div>
+            </form>
+          </div>
+          <!-- Modal Footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" onclick="submitForm()">Soumettre</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
 </body>
 
 </html>
@@ -215,11 +242,13 @@
       <a href="/cgu.html"class="link" >C.G.U</a>
       <a href="qsn.html"class="link">Qui sommes-nous</a>
       <a href="plan.html"class="link">Plan du site</a>
-      <a href=""class="link">Connectez vous</a>
-
+      <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#contactModal">Contactez-nous</a>
       <a href="https://www.instagram.com/css117history/">
         <img src="images/instagram-1581266_640_thumbnail.png" alt="Logo Instagram" class="logo-instagram">
       </a>
+
+
+      
     </footer>
     <script src="./index.js"></script>    
 </body>
