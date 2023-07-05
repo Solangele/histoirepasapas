@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./history.css">
+    <link rel="stylesheet" href="history.css">
     <link rel="stylesheet" href="bootstrap-5.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <script src="bootstrap-5.0.2/js/bootstrap.min.js"></script>
-    <script src="index1.js"></script>
-    <title>Document</title>
+    <title>Accueil</title>
 </head>
 
 <body>
@@ -16,18 +16,16 @@
     <header>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <div class="container-fluid">
-                <div class="collapse navbar-collapse row" id="mynavbar">
-                    <div class="col-sm-4">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link link" href="index.html">Accueil</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link" href="pagesiecle.html">Différents siècles</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link" href="catégories.html">Catégories</a>
-                            </li>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link link" href="index1.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link" href="pagesiecle.html">Différents siècles</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link" href="catégories.html">Catégories</a>
+                </li>
                         </ul>
                     </div>
                     <div class="col-sm-4">
@@ -49,10 +47,6 @@
                             <div class="col-sm-2">
                                 <button class="btn btn-primary" type="button" data-bs-toggle="modal"
                                     data-bs-target="#myModalInscripton">Inscription</button>
-                            </div>
-                            <div class="col-sm-2">
-                                <button class="btn btn-primary" type="button" data-bs-toggle="modal"
-                                    data-bs-target="#myModalConnexion">Connexion</button>
                             </div>
                         </div>
                     </div>
@@ -189,24 +183,28 @@
 
                 <!-- Modal Header -->
                 <div class="modal-header">
-                    <h4 class="modal-title">Inscription</h4>
+                    <h4 class="modal-title">Inscription à la Newsletter</h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
 
                 <!-- Modal body -->
                 <div class="modal-body">
-                    <input class="form-control form-control-sm" type="text" placeholder="Nom" aria-label=".form-control-sm example" id="name">
+                    <input class="form-control form-control-sm" type="text" placeholder="Nom" aria-label=".form-control-sm example" id="nom">
                     <br/>
                     <input class="form-control form-control-sm" type="text" placeholder="Prènom" aria-label=".form-control-sm example" id="prenom">
                     <br/>
-                    <input class="form-control form-control-sm" type="text" placeholder="exemple@gmail.com" aria-label=".form-control-sm example" id="email">
+                    <input class="form-control form-control-sm" type="text" placeholder="Adresse" aria-label=".form-control-sm example" id="email">
+                    <br/>
+                    <input class="form-control form-control-sm" type="text" placeholder="exemple@gmail.com" aria-label=".form-control-sm example" id="adresse">
                     <br/>
                     <input class="form-control form-control-sm" type="password" placeholder="Mot de passe" aria-label=".form-control-sm example" id="password">
+                    <br/>
+                    <input class="form-control form-control-sm" type="password" placeholder="Confirmation du mot de passe" aria-label=".form-control-sm example" id="passwordConfirmation">
                 </div>
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal" onclick="save()">Valider</button>
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal" id= boutonValider onclick="save()">Valider</button>
                     <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Annuler</button>
                 </div>
 
