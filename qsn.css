@@ -14,7 +14,7 @@
   }
 
 body {
-    background-color:rgb(145, 120, 120) !important;
+    background-color: #8e0d0d !important;
 }
 
 h3 {
@@ -31,8 +31,7 @@ h1 {
 .sect1 {
     width: 1000px;
     height: 500px;
-    margin-left: 25%;
-    margin-right: 20%;
+    margin-left: 15%;
     text-align: center;
     background-color: rgba(255, 235, 205, 0.326);
     border-radius: 10px;
@@ -41,24 +40,27 @@ h1 {
 
 
 footer {
-    background-color: #049f8d73;
+    background-color: #049f8d9a !important;
     padding: 20px;
-    text-align: center; 
-    position:fixed;
-    bottom:0;
-    width: 100%;
-    color: white !important;
-    
+    text-align: center;
   }
   footer a {
-    position:relative;
-    margin:0;
-    text-align: center;
     margin-right: 10px;
     color: #666;
     text-decoration: none;
-    
   }
+.link {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+
+  .link:hover {
+    color: white;
+    background-color: black;
+  }
+
   .logo-instagram {
     width: 20px; /* Ajustez la largeur du logo selon vos besoins */
     height: 20px; /* Ajustez la hauteur du logo selon vos besoins */
