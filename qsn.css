@@ -70,3 +70,10 @@ footer {
     text-decoration: none;
     
   }
+  .logo-instagram {
+    width: 20px; /* Ajustez la largeur du logo selon vos besoins */
+    height: 20px; /* Ajustez la hauteur du logo selon vos besoins */
+    margin-left: 10px; /* Ajoute un espace à gauche du logo */
+  
+  }
+  
