@@ -1,3 +1,4 @@
+
 function save() {
     
     let nom = document.getElementById("nom").value;
@@ -24,4 +25,14 @@ function save() {
     console.log("Email:", email);
     console.log("Adresse:", adresse);
     console.log("Mot de passe:", password);
+}
+
+function submitForm() {
+
+  let message = document.getElementById("message").value;
+
+  alert("Votre requête est transmise aux administrateurs du site");
+  document.getElementById("contactForm").reset();
+  var contactModal = new bootstrap.Modal(document.getElementById("contactModal"));
+  contactModal.hide();
 }
