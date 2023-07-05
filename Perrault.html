@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Molière.css">
+    <link rel="stylesheet" href="./bootstrap-5.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <script>
+        function playMusic() {
+          var audio = document.getElementById("audio");
+          audio.play();
+        }
+     </script>
+
+    <title>Charles Perrault</title>
+</head>
+
+
+<header>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link link" href="index.html">Acceuil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="pagesiecle.html">Différents siècles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="catégories.html">Catégories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link active" href="poetes.html">Poètes</a>
+            </li>
+          </ul>
+          <form class="form-chercher">
+            <div class="input-group">
+              <button class="btn btn-outline-light" type="button">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+              <input type="text" class="form-control" placeholder="Chercher">
+            </div>
+          </form>
+        </div>
+      </nav>
+</header>
+
+<body>
+    <main>
+        <h1>Biographie</h1>
+        
+        <article class="container">
+        <img src="./images écrivains 17eme/Portrait_de_Charles_Perrault_(1628-1703)_par_Charles_Le_Brun.jpg" alt="Perrault">
+         <h2>Charles Perrault</h2>
+         <p> Charles Perrault, né le 12 janvier 1628 à Paris et mort dans cette même ville le 16 mai 1703, est un homme de lettres français, célèbre pour ses Contes de ma mère l’Oye.
+            Auteur de textes religieux, chef de file des Modernes dans la Querelle des Anciens et des Modernes, Charles Perrault était considéré par ses contemporains comme l'un des grands auteurs du xviie siècle. Il n'est plus connu aujourd'hui que pour avoir été l'un des formalisateurs du genre littéraire écrit du conte merveilleux.Charles Perrault est né dans une famille bourgeoise tourangelle installée à Lyon. Son grand-père a été brodeur du roi, son père Pierre († 1652) avocat au Parlement de Paris s'est marié en 1608 à Paquette Le Clerc († 1657) qui lui donne sept enfants. Charles est le dernier de cette fratrie1 : Jean, l'aîné, avocat comme son père, meurt en 1669 ; Pierre (1611-1680), receveur général des finances, perd pour indélicatesse son crédit auprès de Colbert en 1664 ; Claude (1613-1688), médecin et architecte, membre de l'Académie des sciences2 et du Conseil des bâtiments, publie des ouvrages d'histoire naturelle et d'architecture, on lui doit notamment la colonnade du Louvre ; Nicolas (1624-1662), amateur de mathématiques et théologien, est exclu de la Sorbonne pour jansénisme en 1656 ; Marie, l’unique fille, meurt à treize ans3 ; il a également un frère jumeau, François, mort en bas âge, à 6 mois4.
+    </p>
+    </article>
+   <button onclick="playMusic()">Play Music</button>
+    <audio id="audio" src="Fichier audio/Folia Rodrigo Martinez - c.1490.mp3"></audio>
+    </main>
+<footer>
+    <a href="/faq.html"class="link">F.A.Q</a>
+    <a href="/cgu.html"class="link" >C.G.U</a>
+    <a href="qsn.html"class="link">Qui sommes-nous</a>
+    <a href="plan.html"class="link">Plan du site</a>
+</footer>  
+</body>
+
+</html>
