@@ -1,5 +1,20 @@
+.recherche {
+    height: 20px;
+    margin-top: 100px;
+    border: 100px;
+    border-radius: 4px;
+    font-size: 16px;
+    left: 0;
+  }
+  
+  #logo {
+      height: 100px!important;
+      position: relative;
+      top: 0;
+  }
+
 body {
-    background-image: url(./images/foret.jpeg);
+    background-color: darkgray !important;
 }
 
 h3 {
@@ -38,7 +53,20 @@ h1 {
 }
 
 footer {
-    display: flex;    
-    text-align: left;
-    font-size: small;
-}
+    background-color: #049f8d73;
+    padding: 20px;
+    text-align: center; 
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    
+  }
+  footer a {
+    position:relative;
+    margin:0;
+    text-align: center;
+    margin-right: 10px;
+    color: #666;
+    text-decoration: none;
+    
+  }
