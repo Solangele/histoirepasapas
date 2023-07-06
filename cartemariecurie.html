@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./cartemariecurie.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="bootstrap-5.0.2/css/bootstrap.min.css">
+    <script src="bootstrap-5.0.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
     crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
        crossorigin=""></script>
+       <script>  src="./index1.js"</script>
     <title>Document</title>
 </head>
 <body>
@@ -28,13 +31,19 @@
                 <a class="nav-link link" href="catégories.html">Catégories</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link link" href="./politiciens20emesiecle.html">Politiciens</a>
+                <a class="nav-link link" href="./politiciens20emesiecle.html">Scientifiques</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link link" href="cartehistorique.html">Carte Historique</a>
+                <a class="nav-link link" href="cartehistorique.html">Marie Curie</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link active" href="cartehistorique.html">Carte Historique</a>
               </li>
             </ul>
-            <section><h1>Marie Curie</h1></section>
+            <a href="index.html">
+              <img src="./images/logoPour-la-Marocaine.png" alt="logo" id="logo" style="height: 50px;">
+            </a>
+            </ul>
             <form class="form-chercher">
               <div class="input-group">
                 <button class="btn btn-outline-light" type="button">
@@ -69,15 +78,42 @@
       <br>
       <br>
 
-    
+      <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h5 class="modal-title" id="contactModalLabel">Contactez-nous</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <!-- Modal Body -->
+            <div class="modal-body">
+              <form id="contactForm">
+                <div class="mb-3">
+                  <label for="message">Message :</label>
+                  <textarea class="form-control" id="message" rows="5"></textarea>
+                </div>
+              </form>
+            </div>
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" onclick="submitForm()">Soumettre</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <footer>
         <a href="faq.html" class="link">F.A.Q</a>
         <a href="cgu.html" class="link">C.G.U</a>
         <a href="qsn.html" class="link">Qui sommes-nous</a>
         <a href="plan.html" class="link">Plan du site</a>
+        <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#contactModal">Contactez-nous</a>
       </footer>
       
       <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
       <script src="./cartemariecurie.js"></script>
+      <script>  src="./index1.js"</script>
 </body>
 </html>
