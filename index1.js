@@ -1,4 +1,3 @@
-
 function save() {
 
   initColorForInput();
@@ -100,6 +99,6 @@ function submitForm() {
 
   alert("Votre requête est transmise aux administrateurs du site");
   document.getElementById("contactForm").reset();
-  var contactModal = new bootstrap.Modal(document.getElementById("contactModal"));
+  let contactModal = new bootstrap.Modal(document.getElementById("contactModal"));
   contactModal.hide();
 }
