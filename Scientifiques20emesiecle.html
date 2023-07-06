@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="bootstrap-5.0.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
   <script src="bootstrap-5.0.2/js/bootstrap.min.js"></script>
+  <script>  src="./index1.js"</script>
   <header>
     <title>Scientifiques</title>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -22,8 +23,9 @@
           <li class="nav-item">
             <a class="nav-link link" href="catégories.html">20ème siècle : Catégories</a>
           </li>
-          <li class="nav-item dropdown">           
-            <a class="nav-link link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item dropdown">
+            <a class="nav-link link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
               Scientifiques
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -36,6 +38,9 @@
             </ul>
           </li>
         </ul>
+        <a href="index.html">
+          <img src="./images/logoPour-la-Marocaine.png" alt="logo" id="logo" style="height: 50px;">
+        </a>
         <form class="form-chercher">
           <div class="input-group">
             <button class="btn btn-outline-light" type="button">
@@ -57,8 +62,7 @@
         <div class="row">
           <div class="col-sm-4"></div>
           <div class="col-sm-8">
-            <img src="./Scientifiques_français_20s/Marie_curie.jpg" alt="Marie Curie" width="100%"
-              height="200px">
+            <img src="./Scientifiques_français_20s/Marie_curie.jpg" alt="Marie Curie" width="100%" height="200px">
           </div>
         </div>
       </div>
@@ -71,8 +75,7 @@
         <div class="row">
           <div class="col-sm-4"></div>
           <div class="col-sm-8">
-            <img src="./Scientifiques_français_20s/Paul_Langevin.jpg" alt="Paul Langevin" width="100%"
-            height="200px">
+            <img src="./Scientifiques_français_20s/Paul_Langevin.jpg" alt="Paul Langevin" width="100%" height="200px">
           </div>
         </div>
       </div>
@@ -85,8 +88,7 @@
         <div class="row">
           <div class="col-sm-4"></div>
           <div class="col-sm-8">
-            <img src="./Scientifiques_français_20s/Alfred_Kastler.jpg"
-              alt="Alfred Kastler" width="100%" height="200px">
+            <img src="./Scientifiques_français_20s/Alfred_Kastler.jpg" alt="Alfred Kastler" width="100%" height="200px">
           </div>
         </div>
       </div>
@@ -103,7 +105,8 @@
         <div class="row">
           <div class="col-sm-4"></div>
           <div class="col-sm-8">
-            <img src="./Scientifiques_français_20s/Frédéric_Joliot-Curie.jpg" alt="Frédéric Joliot Curie" width="100%" height="200px">
+            <img src="./Scientifiques_français_20s/Frédéric_Joliot-Curie.jpg" alt="Frédéric Joliot Curie" width="100%"
+              height="200px">
           </div>
         </div>
       </div>
@@ -116,8 +119,7 @@
         <div class="row">
           <div class="col-sm-4"></div>
           <div class="col-sm-8">
-            <img src="./Scientifiques_français_20s/Henri_Laborit.jpg"
-              alt="Henri Laborit" width="100%" height="200px">
+            <img src="./Scientifiques_français_20s/Henri_Laborit.jpg" alt="Henri Laborit" width="100%" height="200px">
           </div>
         </div>
       </div>
@@ -130,9 +132,7 @@
         <div class="row">
           <div class="col-sm-4"></div>
           <div class="col-sm-8">
-            <img
-              src="./Scientifiques_français_20s/Louis Néel.jpg"
-              alt="Louis Néel" width="100%" height="200px">
+            <img src="./Scientifiques_français_20s/Louis Néel.jpg" alt="Louis Néel" width="100%" height="200px">
           </div>
         </div>
       </div>
@@ -143,16 +143,44 @@
       </div>
     </div>
   </div>
+
+  <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h5 class="modal-title" id="contactModalLabel">Contactez-nous</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- Modal Body -->
+        <div class="modal-body">
+          <form id="contactForm">
+            <div class="mb-3">
+              <label for="message">Message :</label>
+              <textarea class="form-control" id="message" rows="5"></textarea>
+            </div>
+          </form>
+        </div>
+        <!-- Modal Footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" onclick="submitForm()">Soumettre</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <br /><br /><br />
   <footer>
     <a href="/faq.html" class="link">F.A.Q</a>
     <a href="/cgu.html" class="link">C.G.U</a>
     <a href="qsn.html" class="link">Qui sommes-nous</a>
     <a href="plan.html" class="link">Plan du site</a>
+    <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#contactModal">Contactez-nous</a>
     <a href="https://www.instagram.com/css117history/">
       <img src="images/instagram-1581266_640_thumbnail.png" alt="Logo Instagram" class="logo-instagram">
     </a>
   </footer>
+  <script>  src="./index1.js"</script>
 </body>
 
 </html>
