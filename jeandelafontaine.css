@@ -4,9 +4,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;  
   padding: 0;
-  background-color: rgb(235, 234, 244);
+  background-color: #8e0d0d !important;
+  
 }
-
+p{
+  color: rgb(77, 196, 17);
+}
 
 
 a.link {
@@ -54,7 +57,7 @@ box-shadow: 5px 5px 15px rgba(0,0,0,0,3);
 footer {
   display: flex;
   justify-content: center;
-  background-color: #049f8d73 !important;
+  background-color: #049f8dba !important;
   padding: 20px;
   text-align: center;
 }

@@ -7,12 +7,8 @@
     <link rel="stylesheet" href="./bootstrap-5.0.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
 
-    <script>
-        function playMusic() {
-          var audio = document.getElementById("audio");
-          audio.play();
-        }
-     </script>
+    <script src="./index1.js"></script>
+    
 
     <title>Marie Curie</title>
 
@@ -74,15 +70,22 @@
         <button type="button" class="btn btn-outline-info">Lieux à visité</button></a>
       </div>
 
+      
+
     </main>
 
-    
+    <a href="./Fichier audio/CLAUDE_DEBUSSY_CLAIR_DE_LUNE.mp3"class="audio"></a>
+      <audio controls>
+      <source src="Fichier audio/CLAUDE_DEBUSSY_CLAIR_DE_LUNE.mp3" type="audio/mpeg">
+      </audio>
 
     <footer>
         <a href="/faq.html"class="link">F.A.Q</a>
         <a href="/cgu.html"class="link" >C.G.U</a>
         <a href="qsn.html"class="link">Qui sommes-nous</a>
         <a href="plan.html"class="link">Plan du site</a>
+        <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#contactModal">Contactez-nous</a>
+
         <a href="https://www.instagram.com/css117history/">
         <img src ="images/instagram-1581266_640_thumbnail.png" alt="Logo Instagram" class="logo-instagram">
         </a> 
