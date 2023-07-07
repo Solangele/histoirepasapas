@@ -4,11 +4,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;  
   padding: 0;
-  background-color: #8e0d0d !important;
+  background-color: #781414 !important;
   
 }
 p{
-  color: rgb(77, 196, 17);
+  color:white;
 }
 
 
@@ -35,7 +35,13 @@ img:hover{
   transform: scale(1.5);
   }
 
+h1 {
+  color: white;
+}
 
+h2 {
+  color: white;
+}
 
 .container {
 max-width: 600px;

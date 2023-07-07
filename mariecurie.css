@@ -3,9 +3,20 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;  
     padding: 0;
-    background-color: rgb(235, 234, 244);
+    background-color: #781414 !important;
   }
   
+  h1 {
+    color: white;
+  }
+  
+  h2 {
+    color: white;
+  }
+
+  p {
+    color: white;
+  }
 
  a.link {
     color: rgb(71, 81, 81);
